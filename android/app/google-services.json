@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218679796981",
+    "project_id": "work-order-2022",
+    "storage_bucket": "work-order-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218679796981:android:79e52543069596afff51bc",
+        "android_client_info": {
+          "package_name": "com.example.work_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218679796981-t97ju9158uib0697u6igrnrirmameupi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUgDG7YhtjIeWRnlf79uSDuIEasCaf7Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218679796981-t97ju9158uib0697u6igrnrirmameupi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
