@@ -2,15 +2,6 @@
 
 A simple work order management app
 
-## Getting Started
+## Summary
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Simple Work Order Manager is a mobile app that has the ability to create work orders and assign them automatically to technicians based on work type, qualification, and schedule. This app is useful for those who want to manage workers by assigning automatic work orders from their mobile. They will be able to add new technicians, create work orders, notify workers by mail and keep all the records.
