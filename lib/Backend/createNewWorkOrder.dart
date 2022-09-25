@@ -8,7 +8,7 @@ import 'package:work_order/Widgets/successfulScreen.dart';
 
 
 class CreateNewWorkOrder extends StatelessWidget {
-  String name, description, location, workType, qualification;
+  String name, description, location, workType, qualification, technicianName, technicianEmail;
   DateTime dailyStartTime, dailyEndTime;
 
   CreateNewWorkOrder({
@@ -19,22 +19,15 @@ class CreateNewWorkOrder extends StatelessWidget {
     required this.qualification,
     required this.dailyStartTime,
     required this.dailyEndTime,
+    required this.technicianEmail,
+    required this.technicianName,
   });
 
 
   Future<void> _insertData() async {
 
-    String technicianName = "";
-    String technicianEmail = "";
-
-
 
     try {
-
-
-        // if(technicianName == ""){
-        //   return "No Technician found";
-        // }
 
         await FirebaseFirestore.instance.collection("WorkOrders").add({
           'name': name,

@@ -256,6 +256,8 @@ class _WorkOrderInputScreenState extends State<WorkOrderInputScreen> {
                               qualification: selectedQualification,
                               dailyStartTime: workStartTime!,
                               dailyEndTime: workEndTime!,
+                              technicianEmail: technicianEmail,
+                              technicianName: technicianName,
                             ),
                       ),
                     );
